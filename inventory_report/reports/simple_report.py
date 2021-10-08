@@ -5,8 +5,8 @@ DATE_FORMAT = "%Y-%m-%d"
 
 
 class SimpleReport:
-    @staticmethod
-    def generate(data):
+    @classmethod
+    def generate(cls, data):
         manufacture_dates = []
         expirations = []
         companys = []
