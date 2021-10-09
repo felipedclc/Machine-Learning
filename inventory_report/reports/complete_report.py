@@ -1,5 +1,5 @@
 from typing import Counter
-from .simple_report import SimpleReport
+from inventory_report.reports.simple_report import SimpleReport
 import json
 
 
