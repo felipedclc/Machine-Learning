@@ -14,4 +14,4 @@ class XmlImporter(Importer):
                 ]
                 return content
         else:
-            raise ValueError("Arquivo inválido")
+            raise ValueError("Invalid file type")
