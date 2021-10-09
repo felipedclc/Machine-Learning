@@ -12,7 +12,7 @@ class Inventory:
         file_data = cls.get_data(file_path)
         if report_type == "simples":
             return SimpleReport.generate(file_data)
-        if report_type == "completo":
+        elif report_type == "completo":
             return CompleteReport.generate(file_data)
 
     @classmethod
